@@ -1,0 +1,24 @@
+{
+    "name": "malekim/halt",
+    "description": "Plugin that extend DebugKit with HaltPanel to help debugging CakePHP3 applications",
+    "type": "cakephp-plugin",
+    "homepage": "https://github.com/malekim/halt",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Halt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Halt\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
