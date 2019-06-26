@@ -43,8 +43,8 @@ For instance:
 ```
 // inside PagesController.php
 public function display(...$path) {
-        halt($path);
-        // rest of the code
+    halt($path);
+    // rest of the code
 }
 ```
 And then halt shows:
